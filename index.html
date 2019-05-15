@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="static/img/general/touch-icon-32.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="64x64" href="static/img/general/touch-icon-64.png">
+    <link rel="preload" as="font" href="static/fonts/Nunito-ExtraBold.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="image" href="static/svg/logo.svg" crossorigin>
+    <link rel="preload" href="main/css/main.css" as="style">
+    <link rel="stylesheet" type="text/css" href="main/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/fonts/fonts.css">
+    <link rel="stylesheet" href="static/libs/libs.css">
+    <link rel="stylesheet" type="text/css" href="main/css/main.css">
+    <title>Mitalent
+    </title>
+  </head>
+  <body>
+    <div class="cursor"><span class="cursor__icon cursor__icon_default"></span><img class="cursor__icon cursor__icon_grab" src="static/svg/drag.svg" alt="cursor"><img class="cursor__icon cursor__icon_arrow" src="static/svg/arrow.svg" alt="cursor"><span class="cursor__icon cursor__icon_play">Play</span></div>
+        <nav class="main-nav" id="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item-wrap">
+              <div class="main-nav__item interactive" data-cursor="arrow" style="transition-delay: 0s;"><a class="main-nav__link" href="blog.html"><span class="main-nav__item-text">Blog</span><span class="main-nav__item-number">00</span><span class="main-nav__item-line" style="transition-delay: 0s;"></span></a></div>
+            </li>
+            <li class="main-nav__item-wrap">
+              <div class="main-nav__item interactive" data-cursor="arrow" style="transition-delay: 0.3s;"><a class="main-nav__link" href="news.html"><span class="main-nav__item-text">News</span><span class="main-nav__item-number">01</span><span class="main-nav__item-line" style="transition-delay: 0.3s;"></span></a></div>
+            </li>
+            <li class="main-nav__item-wrap">
+              <div class="main-nav__item interactive" data-cursor="arrow" style="transition-delay: 0.6s;"><a class="main-nav__link" href="contacts.html"><span class="main-nav__item-text">Contacts</span><span class="main-nav__item-number">02</span><span class="main-nav__item-line" style="transition-delay: 0.6s;"></span></a></div>
+            </li>
+          </ul>
+          <button class="toggle-navigation-btn toggle-navigation-btn_closed interactive main-nav__close-btn" type="button" data-cursor="circle" id="main-nav-close-btn"><span class="hidden-text">Close navigation</span><span class="toggle-navigation-btn__line"></span></button>
+        </nav>
+        <div id="barba-wrapper">
+          <div class="barba-container" data-namespace="mainPage">
+            <div class="mainSlider square">
+              <header class="header">
+                <div class="header__panel">
+                  <button class="toggle-navigation-btn header__sandwich interactive" type="button" data-cursor="circle" id="toggle-navigation-btn"><span class="hidden-text">Close navigation </span><span class="toggle-navigation-btn__line"></span></button><a class="header__link interactive" href="blog.html" data-cursor="dot">Blog </a><a class="header__link interactive" href="news.html" data-cursor="dot">News</a>
+                </div><a class="header__logo" href="./"><img class="logo" src="static/svg/logo.svg" alt="Mitalent"></a>
+                <div class="header__panel">
+                  <div class="header__search-form search-form">
+                    <div class="search-form__overlay interactive" data-cursor="circle"><img class="search-form__overlay-icon form__icon" src="static/svg/search.svg" alt="search icon"></div>
+                    <form class="form form_size_sm search-form__block-form">
+                      <input class="interactive form__input" type="search" placeholder="Search" name="main-search" data-cursor="hidden">
+                      <button class="form__btn interactive" type="submit" data-cursor="circle"> <img class="form__icon" src="static/svg/search.svg" alt="search icon"></button>
+                    </form>
+                  </div>
+                </div>
+              </header>
+              <div class="mainSlider__social">
+                <ul class="social">
+                  <li class="social__item"><a class="social__link interactive" href="#" target="_blank" data-cursor="circle" title="facebook">
+                      <svg class="icon icon-fb social__icon" aria-hidden="true">
+                        <use xlink:href="static/svg/symbol/sprite.svg#fb"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a class="social__link interactive" href="#" target="_blank" data-cursor="circle" title="instagram">
+                      <svg class="icon icon-instagram social__icon" aria-hidden="true">
+                        <use xlink:href="static/svg/symbol/sprite.svg#instagram"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a class="social__link interactive" href="#" target="_blank" data-cursor="circle" title="youtube">
+                      <svg class="icon icon-youtube social__icon" aria-hidden="true">
+                        <use xlink:href="static/svg/symbol/sprite.svg#youtube"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a class="social__link interactive" href="#" target="_blank" data-cursor="circle" title="twitter">
+                      <svg class="icon icon-twitter social__icon" aria-hidden="true">
+                        <use xlink:href="static/svg/symbol/sprite.svg#twitter"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+              <div class="swiper-container main-slider loading">
+                <div class="swiper-wrapper">
+                  <section class="swiper-slide interactive" data-slide="0" data-cursor="grab">
+                    <div class="slide-bgimg interactive" data-cursor="grab" style="background-image:url(static/img/content/giorgina.jpg);"><img class="entity-img" src="static/img/content/giorgina.jpg"></div><a class="swiper-link btn-main interactive" href="profile-1.html" data-cursor="dot"><span class="btn-main__text">View profile</span><span class="btn-main__pic">
+                        <svg class="icon icon-play btn-main__icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#play"></use>
+                        </svg></span></a>
+                    <div class="swiper-slide__content content interactive" data-cursor="grab">
+                      <h2 class="title">Giorgina Alson</h2>
+                      <p class="caption">Young model 2020</p>
+                    </div>
+                  </section>
+                  <section class="swiper-slide interactive" data-slide="1" data-cursor="grab">
+                    <div class="slide-bgimg" style="background-image:url(static/img/content/derek.jpg);"><img class="entity-img" src="static/img/content/derek.jpg"></div><a class="swiper-link btn-main interactive" href="profile-2.html" data-cursor="dot"><span class="btn-main__text">View profile</span><span class="btn-main__pic">
+                        <svg class="icon icon-play btn-main__icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#play"></use>
+                        </svg></span></a>
+                    <div class="swiper-slide__content content">
+                      <h2 class="title">Derek Anderson</h2>
+                      <p class="caption">Btitish comedian</p>
+                    </div>
+                  </section>
+                  <section class="swiper-slide interactive" data-slide="2" data-cursor="grab">
+                    <div class="slide-bgimg" style="background-image:url(static/img/content/keith.jpg);"><img class="entity-img" src="static/img/content/keith.jpg"></div><a class="swiper-link btn-main interactive" href="profile-3.html" data-cursor="dot"><span class="btn-main__text">View profile</span><span class="btn-main__pic">
+                        <svg class="icon icon-play btn-main__icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#play"></use>
+                        </svg></span></a>
+                    <div class="swiper-slide__content content">
+                      <h2 class="title">Keith Ruiz</h2>
+                      <p class="caption">Comedian</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="swiper-scrollbar">       </div>
+                <button class="swiper-button-prev swiper-button-white">  </button>
+                <button class="swiper-button-next swiper-button-white"></button>
+              </div>
+              <div class="mainSlider__navWrap swiper-nav-wrap loading">
+                <div class="swiper-container nav-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide nav-slide">01<img class="entity-img" src="static/img/content/giorgina.jpg"></div>
+                    <div class="swiper-slide nav-slide">02 <img class="entity-img" src="static/img/content/derek.jpg"></div>
+                    <div class="swiper-slide nav-slide">03<img class="entity-img" src="static/img/content/keith.jpg"></div>
+                  </div>
+                </div>
+                <div class="swiper-slider-count">03</div>
+              </div>
+            </div>
+          </div>
+          <div class="barba-overlay"></div>
+        </div>
+    <script src="static/js/libs.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
